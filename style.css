@@ -1,0 +1,42 @@
+/*
+Theme Name: Paris Construction
+Theme URI:
+Description: A modern construction company theme with glassmorphism design, neon accents, and smooth animations. Built for WordPress 6.0+ with full block editor support.
+Version: 1.0.0
+Author: Paris Construction, LLC
+Author URI:
+Text Domain: paris-construction
+Domain Path: /languages
+Requires at least: 6.0
+Tested up to: 6.4
+Requires PHP: 8.0
+License: GPL v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Tags: block-themes, one-column, two-columns, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, construction, business, modern, glassmorphism
+
+Paris Construction WordPress Theme
+Copyright (C) 2025 Paris Construction, LLC
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+*/
+
+/* 
+All theme styles are loaded from assets/css/main.css via functions.php
+This file only contains the theme header information for WordPress
+*/
+
+.full-height { height: 100vh; display: flex; align-items: center; justify-content: center; }
+.fade-in { opacity: 0; transition: opacity 1s ease; }
+.fade-in.visible { opacity: 1; }
+.service-list { list-style: none; padding: 0; font-size: 1.2rem; }
